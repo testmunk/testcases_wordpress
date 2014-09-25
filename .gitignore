@@ -39,7 +39,6 @@ Android/features/.idea
 
 *.png
 
-iOs/app
 iOS/features/support/01_launch.rb
 iOS/features/test.feature
 iOS/features/testmunk
@@ -51,8 +50,6 @@ features/ios/support/launch.rb
 features/test.feature
 support/test_android.rb
 support/test_ios.rb
-# here I have apps for android and ios. Should be kept locally.
-app/
 
 
 support/console.rb
@@ -60,7 +57,9 @@ support/console.rb
 02_pre_stop_hooks.rb
 features/testmunk
 test_servers
-*.apk
 test_helper.rb
 console.rb
 test-helper.rb
+
+app.apk
+app.app
