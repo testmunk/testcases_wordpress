@@ -1,0 +1,66 @@
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+## Specific to RubyMotion:
+.dat*
+.repl_history
+build/
+
+## Documentation cache and generated files:
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+## Environment normalisation:
+/.bundle/
+/lib/bundler/man/
+
+# for a library or gem, you might want to ignore these files since the code is
+# intended to run in multiple environments; otherwise, check them in:
+# Gemfile.lock
+# .ruby-version
+# .ruby-gemset
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+.idea/*
+features/.idea
+Android/features/.idea
+.irb-history
+
+*.png
+
+iOs/app
+iOS/features/support/01_launch.rb
+iOS/features/test.feature
+iOS/features/testmunk
+Android/features/testmunk
+Android/test_servers
+
+# local configurations
+features/ios/support/launch.rb
+features/test.feature
+support/test_android.rb
+support/test_ios.rb
+# here I have apps for android and ios. Should be kept locally.
+app/
+
+
+support/console.rb
+01_launch.rb
+02_pre_stop_hooks.rb
+features/testmunk
+test_servers
+*.apk
+test_helper.rb
+console.rb
+test-helper.rb

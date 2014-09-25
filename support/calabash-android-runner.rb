@@ -1,0 +1,1 @@
+exec "calabash-android run #{ENV['CALABASH_APK_FILE']} #{ENV['FEATURE_FILE']}"
