@@ -48,7 +48,7 @@ Android/test_servers
 # local configurations
 features/ios/support/launch.rb
 features/test.feature
-support/test_android.rb
+support/test/platforms/test_android.rb
 support/test_ios.rb
 
 
